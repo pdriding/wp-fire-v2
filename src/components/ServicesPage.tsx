@@ -1,6 +1,6 @@
 export default function ServicesPage() {
   return (
-    <div className="bg-[#f5f5f5] text-gray-800 w-screen px-10">
+    <div className="bg-[#f5f5f5] text-gray-800 w-screen px-10 pb-10">
       <main className="max-w-7xl mx-auto px-6  lg:py-20 pl-20">
         <header className="mb-10">
           <h1 className="text-4xl lg:text-5xl font-light mb-4">Our Services</h1>

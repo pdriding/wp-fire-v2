@@ -40,7 +40,7 @@ export default function Features() {
 
   return (
     <section className="py-20">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 justify-center items-center">
+      <div className="max-w-[70rem] h-[70vh]  mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 justify-center items-center">
         {items.map((i) => (
           <div key={i.title} className="flex flex-col items-center text-center">
             <ion-icon

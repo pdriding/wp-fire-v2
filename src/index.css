@@ -75,7 +75,7 @@
     width: 100%;
   }
 
-  .grid {
+  /* .grid {
     display: grid;
     gap: 9.5rem 6.4rem;
   }
@@ -93,7 +93,7 @@
   }
   .grid--center-v {
     align-items: center;
-  }
+  } */
 
   .heading-primary,
   .heading-secondary {

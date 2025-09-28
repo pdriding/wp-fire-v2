@@ -22,33 +22,26 @@ export default function Contact() {
   return (
     <section
       id="contact-section"
-      className="p-30 bg-gray-100 h-[100vh] flex flex-col items-center"
+      className="p-30 bg-gray-100 h-[100vh] flex flex-col justify-center items-center"
     >
       {/* Header */}
       <h2 className="text-3xl mb-6 text-center text-red-600 font-extralight ">
         Contact Us
       </h2>
-
       {/* Main container */}
-      <div className="flex justify-between items-center  w-full max-w-6xl flex-wrap py-8 ">
+      <div className="flex flex-col md:flex-row justify-center items-center w-full max-w-6xl py-8 gap-8">
         {/* Map */}
-        {/* <div
-          id="contact-map"
-          ref={mapRef}
-          className="w-[40vw] h-[25vh] border border-gray-300 rounded-md overflow-hidden self-center text-center text-sm flex items-center justify-center"
-        ></div> */}
-
+        {/* <div id="contact-map" ref={mapRef} className="w-[40vw] h-[25vh] border border-gray-300 rounded-md overflow-hidden self-center text-center text-sm flex items-center justify-center" ></div> */}
         {/* Contact Form */}
-        <div className="flex flex-col  h-full w-[50%] items-center">
+        <div className="flex flex-col w-full md:w-1/2 items-center">
           <form
             onSubmit={handleSubmit}
-            className="text-gray-800  w-[80%] text-sm"
+            className="text-gray-800 w-[80%] text-sm"
           >
             <p className="italic text-gray-500 mb-2">
               Fields marked with an <span className="text-red-600">*</span> are
               required.
             </p>
-
             {/* Row 1 */}
             <div className="flex justify-between mb-2 gap-2">
               <div className="flex-1 mr-1">
@@ -75,7 +68,6 @@ export default function Contact() {
                 />
               </div>
             </div>
-
             {/* Row 2 */}
             <div className="flex justify-between mb-2 gap-2">
               <div className="flex-1 mr-1">
@@ -103,7 +95,6 @@ export default function Contact() {
                 />
               </div>
             </div>
-
             {/* Message */}
             <div className="mb-2">
               <label htmlFor="message" className="block text-base">
@@ -116,7 +107,6 @@ export default function Contact() {
                 className="w-full p-2 text-base mt-1 border border-gray-300 rounded-sm h-28 bg-white"
               ></textarea>
             </div>
-
             {/* Button */}
             <button
               type="submit"
@@ -127,23 +117,18 @@ export default function Contact() {
           </form>
         </div>
         {/* Enquiries */}
-        <div className="flex justify-center h-screen w-[40vw]">
+        <div className="flex justify-center w-full md:w-1/2">
           <div className="flex flex-col gap-10 text-gray-800 w-[20vw] text-sm items-start">
             <h1 className="text-2xl font-light">General Enquiries</h1>
             <p className="text-lg font-light">
-              07211 555 432
+              07211 555 432{" "}
               <span className="text-red-600 mt-1 block text-2xl">
                 info@wpfire.co.uk
               </span>
             </p>
             <p className="leading-6 text-lg font-light">
-              21 Downing Street,
-              <br />
-              Westminster,
-              <br />
-              London,
-              <br />
-              L1 2WZ
+              21 Downing Street, <br /> Westminster, <br /> London, <br /> L1
+              2WZ
             </p>
           </div>
         </div>

@@ -121,7 +121,7 @@ export default function Contact() {
           <div className="flex flex-col gap-10 text-gray-800 w-[20vw] text-sm items-start">
             <h1 className="text-2xl font-light">General Enquiries</h1>
             <p className="text-lg font-light">
-              07211 555 432{" "}
+              020 7000 0000{" "}
               <span className="text-red-600 mt-1 block text-2xl">
                 info@wpfire.co.uk
               </span>

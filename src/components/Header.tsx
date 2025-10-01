@@ -105,7 +105,7 @@ export default function Header(): JSX.Element {
             <span className="text-[0.875rem] font-normal text-[#555]">
               CALL US NOW
             </span>
-            <h2 className="text-[1.25rem] font-semibold">07211 555 432</h2>
+            <h2 className="text-[1.25rem] font-semibold">020 7000 0000</h2>
           </div>
         </div>
       </div>
